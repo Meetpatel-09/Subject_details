@@ -39,6 +39,6 @@ class SubjectModel {
 
   @override
   String toString() {
-    return 'SubjectModel {subjectid: $subjectid, cid: $cid, subject: $subject, subjectStatus: $subjectStatus, subjectCreatedat: $categoryCreatedat, category: $category, categoryStatus: $categoryStatus, categoryCreatedat: $categoryCreatedat}';
+    return 'SubjectModel {subjectid: $subjectid, cid: $cid, subject: $subject, subjectStatus: $subjectStatus, subjectCreatedat: $subjectCreatedat, category: $category, categoryStatus: $categoryStatus, categoryCreatedat: $categoryCreatedat}';
   }
 }
